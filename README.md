@@ -4,7 +4,7 @@ A scheduled greeter that runs the local claude CLI and sends a random greeting e
 
 ## Current behavior
 
-- Cron triggers at 07:00 every day (Asia/Shanghai).
+- Cron triggers at 09:00 every day (Asia/Shanghai).
 - After trigger, the app waits a random delay between 1 and 5 minutes.
 - Then it sends one random greeting through the local claude CLI.
 

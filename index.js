@@ -1,7 +1,7 @@
 const cron = require('node-cron');
 const { spawn } = require('node:child_process');
 
-const CRON_EXPR = '0 7 * * *';
+const CRON_EXPR = '0 9 * * *';
 const TIMEZONE = 'Asia/Shanghai';
 const MIN_DELAY_MS = 60 * 1000;
 const MAX_DELAY_MS = 5 * 60 * 1000;
