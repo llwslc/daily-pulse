@@ -43,7 +43,7 @@ function wait(ms) {
 
 function runClaudePrompt(prompt) {
   return new Promise((resolve, reject) => {
-    const child = spawn('claude', ['-p', prompt, '--model', 'sonnet'], {
+    const child = spawn('claude', ['-p', prompt, '--model', 'haiku'], {
       stdio: ['ignore', 'inherit', 'inherit']
     });
 
